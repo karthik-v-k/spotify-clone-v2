@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    font-family: Roboto, Arial, sans-serif;
+    color: white;
+    z-index: 5;
+}
+
+
+.spotify-clone-v2{
+    display: grid;
+}
+
+p{
+    display: inline-block;
+    margin: 0px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.mid-part{
+    top: 65px;
+    bottom: 86px;
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+

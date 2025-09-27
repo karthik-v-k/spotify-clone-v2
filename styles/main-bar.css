@@ -1,0 +1,386 @@
+.main-bar{
+    display: flex;
+    flex: 1;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+    .main-bar-contents{
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        border-radius: 10px;
+        min-width: 335px;
+        min-height: 230px;
+        overflow: auto;
+    }
+
+        .main-bar-playlist-cover{
+            display: flex;
+            flex: 1;
+            width: 100%;
+            background-color: rgb(113, 5, 5);
+            max-height: 285px;
+            height: 100%;
+            align-items: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+            .main-bar-palylist-cover-temp-padding{
+                display: flex;
+                margin-left: 20px;
+                margin-right: 20px;
+                width: 100%;
+                
+            }
+
+                .image-and-title-of-cover{
+                    display: flex;
+                    flex-direction: row;
+                    align-items:flex-end;
+                }
+
+                    .image-of-the-cover{
+                        display: flex;
+                    }
+
+                        .image-of-the-cover-PNG{
+                            width: 220px;
+                            box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);
+                            
+                        }
+
+                    .title-and-other-stuff-of-cover{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                    }
+
+                        .status-of-the-playlist{}
+
+                            .status-of-the-playlist-TXT{
+                                font-size: 14px;
+                            }
+                                            
+
+                        .title-of-the-playlist{}
+
+                            .title-of-the-playlist-TXT{
+                                font-size: 50px;
+                                font-weight: bold;
+                            }
+                                            
+
+                        .username-and-saves-of-playlist{
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                        }
+
+                            .user-profile-pic{
+                                display: flex;
+                            }
+
+                                .user-profile-pic-PNG{
+                                    width: 30px;
+                                    border-radius: 30px;
+                                }
+                                    
+
+                            .username-main-bar{}
+
+                                .username-main-bar-TXT{
+                                    font-weight: bold;
+                                }
+                                    
+
+                            .saves-and-time-of-total-playlist{}
+
+                                .saves-and-time-of-total-playlist-TXT{}
+
+        .play-pause-things{}
+
+            .play-pause-actual-elements{
+                margin: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .main-bar-seperating-elemets{
+                    display: flex;
+                    gap: 20px;
+                }
+
+                    .play-button{}
+
+                        .play-button-BTN{
+                            display: flex;
+                            align-items: center;
+                            width: 60px;
+                            height: 60px;
+                            color: black;
+                            background-color: #1ED760;
+                            justify-content: center;
+                            font-size: 20px;
+                            border: 0px;
+                            border-radius: 70px;
+                        }
+
+                        .play-button:hover{
+                            transform: scale(105%);
+                            cursor: pointer;
+                        }
+
+                    
+
+
+                    .idk-button-1{
+                        height: 50px;
+                        width: 35px;
+                        background-color: #ADAAAA;
+                        border-radius: 7px;
+                        cursor: pointer;
+                    }          
+
+                    .type-of-shuffle{
+                        display: flex;
+                    }
+
+                        .type-of-shuffle-BTN{
+                            font-size: 30px;
+                            align-items: center;
+                            color: gray;
+                            display: flex;
+                        }
+                                    
+
+                    .download-button{
+                        display: flex;
+                    }
+
+                        .download-button-BTN{
+                            font-size: 30px;
+                            color: black;
+                            align-items: center;
+                            display: flex;
+                        }
+                                    
+
+                    .add-person-friend{
+                        display: flex;
+                    }
+
+                        .add-person-friend-BTN{
+                            font-size: 30px;
+                            color: black;
+                            align-items: center;
+                            display: flex;
+                        }
+                                    
+
+                    .ellipsis-button{
+                        display: flex;
+                    }
+
+                        .ellipsis-button-BTN{
+                            font-size: 30px;
+                            color: black;
+                            align-items: center;
+                            display: flex;
+                        }
+                                            
+
+                .the-list-button-or-text{
+                    display: flex;
+                    align-items: center;
+                }
+
+                    .list-three-item-BTN{
+                        font-weight: bold;
+                        font-size: 20px;
+                        color: black;
+                    }
+
+        .main-bar-playlist-songs-main{}
+
+            .main-bar-playlist-songs-elements{
+                margin: 20px;
+                padding: 10px;
+                align-items: center;
+                box-sizing: border-box;
+                
+            }
+
+                .the-headers-of-playlist-sticky{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%; 
+                    border: 0px;
+                    border-bottom-width: 2px;
+                    border-color: black;
+                    border-style: solid;
+                }
+
+                .the-headers-of-playlist-sticky p{
+                    color: black;
+                    font-size: 14px;
+                }
+
+                    .title-header-sticky{
+                    }
+
+                        .title-header-sticky-TXT{}
+                                    
+
+                    .album-header-sticky{
+
+                    }
+                    
+
+                        .album-header-sticky-TXT{}
+                                    
+
+                    .date-added-sticky{}
+
+                        .date-added-sticky-TXT{}
+                                    
+
+                    .duration-ofsong-sticky{}
+
+                        .duration-ofsong-sticky-TXT{}
+                                            
+
+                .the-actual-playlist-main{
+                    display: flex;
+                    margin-top: 20px;
+                }
+
+                    .the-actual-playlist-main-borderbox{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        align-items: center;
+                    }
+
+                        .image-and-title-author-div{
+                            display: flex;
+                        }
+                        
+                            .image-of-the-playlist-song{}
+
+                                .image-of-the-playlist-song-PNG{
+                                    border-radius: 5px;
+                                    height: 40px;
+                                }
+                                        
+
+                            .the-title-and-author-text{
+                                margin-left: 10px;
+                            }
+
+                                .the-title-text{}
+
+                                    .the-title-text-TXT{}
+                                                
+
+                                .the-author-text{}
+
+                                    .the-author-text-TXT{
+                                        font-size: 14px;
+                                    }
+                                                    
+
+                        .the-album-text-of-author{}
+
+                            .the-album-text-of-author-TXT{}
+                                    
+
+                        .the-date-added-of-song{}
+
+                            .the-date-added-of-song-TXT{}
+                                    
+
+                        .the-duration-of-the-song{}
+
+			.the-duration-of-the-song-TXT{}
+
+
+
+
+@media screen and (max-width:1100px) {
+
+    .image-of-the-cover-PNG{
+        width: 150px;
+    }
+
+    .status-of-the-playlist-TXT{
+        font-size: 10px;
+    }
+
+    .title-of-the-playlist-TXT{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+    .username-and-saves-of-playlist p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 2400px) {
+
+    .title-of-the-playlist-TXT{
+    font-size: 70px;
+    font-weight: bold;
+    }
+
+    .status-of-the-playlist-TXT{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 3840px) {
+
+    .title-of-the-playlist-TXT{
+    font-size: 90px;
+    font-weight: bold;
+    }
+
+    .status-of-the-playlist-TXT{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width: 5760px) {
+    
+    .main-bar-palylist-cover-temp-padding{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+
+@media screen and (max-width: 1097px) {
+
+    .main-bar-seperating-elemets p {
+        font-size: 15px;
+    }
+    
+    .play-button-BTN{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        border-radius: 30px;
+    }
+
+    .idk-button-1{
+        display: none;
+    }  
+}
+
