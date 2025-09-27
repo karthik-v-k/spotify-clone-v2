@@ -14,6 +14,9 @@
         min-width: 335px;
         min-height: 230px;
         overflow: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
         .main-bar-playlist-cover{
@@ -204,12 +207,15 @@
                         color: black;
                     }
 
-        .main-bar-playlist-songs-main{}
+        .main-bar-playlist-songs-main{
+            max-width: 2000px;
+            width: 100%;
+        }
 
             .main-bar-playlist-songs-elements{
                 margin: 20px;
                 padding: 10px;
-                align-items: center;
+
                 box-sizing: border-box;
                 
             }
@@ -230,32 +236,63 @@
                 }
 
                     .title-header-sticky{
+                        display: flex;
+                        min-width: 100px;
+                        max-width: 100%;
+                        width: 100%;
+                        flex: 1;
+                        padding: 5px;
                     }
 
                         .title-header-sticky-TXT{}
                                     
 
                     .album-header-sticky{
-
+                        display: flex;
+                        min-width: 100px;
+                        max-width: 100%;
+                        width: 100%;
+                        flex: 1;
+                        padding: 5px;
                     }
                     
 
                         .album-header-sticky-TXT{}
                                     
 
-                    .date-added-sticky{}
+                    .date-added-sticky{
+                        display: flex;
+                        min-width: 100px;
+                        max-width: 100%;
+                        width: 100%;
+                        flex: 1;
+                        padding: 5px;
+                    }
 
                         .date-added-sticky-TXT{}
                                     
 
-                    .duration-ofsong-sticky{}
+                    .duration-ofsong-sticky{
+                        padding: 5px;
+                    }
 
                         .duration-ofsong-sticky-TXT{}
                                             
 
                 .the-actual-playlist-main{
                     display: flex;
-                    margin-top: 20px;
+                    margin-top: 0px;
+                    transition: background-color 0.2s;
+                    padding-left: 05px;
+                    padding-right: 05px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-radius: 15px;
+                }
+
+                .the-actual-playlist-main:hover{
+                    background-color: rgb(128, 9, 9);
+                    cursor: pointer;
                 }
 
                     .the-actual-playlist-main-borderbox{
@@ -267,9 +304,17 @@
 
                         .image-and-title-author-div{
                             display: flex;
+                            min-width: 100px;
+                            max-width: 100%;
+                            width: 100%;
+                            flex: 1;
+                            align-items: center;
+                            padding: 5px;
                         }
                         
-                            .image-of-the-playlist-song{}
+                            .image-of-the-playlist-song{
+                                display: flex;
+                            }
 
                                 .image-of-the-playlist-song-PNG{
                                     border-radius: 5px;
@@ -279,31 +324,62 @@
 
                             .the-title-and-author-text{
                                 margin-left: 10px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
                             }
 
-                                .the-title-text{}
+                                .the-title-text{
+                                    display: flex;
+                                    min-width: 100px;
+                                    max-width: 100%;
+                                    width: 100%;
+                                    flex: 1;
+                                }
 
                                     .the-title-text-TXT{}
                                                 
 
-                                .the-author-text{}
+                                .the-author-text{
+                                    display: flex;
+                                    min-width: 100px;
+                                    max-width: 100%;
+                                    width: 100%;
+                                    flex: 1;
+                                }
 
                                     .the-author-text-TXT{
                                         font-size: 14px;
                                     }
                                                     
 
-                        .the-album-text-of-author{}
+                        .the-album-text-of-author{
+                            display: flex;
+                            min-width: 100px;
+                            max-width: 100%;
+                            width: 100%;
+                            flex: 1;
+                            padding: 5px;
+                        }
 
                             .the-album-text-of-author-TXT{}
                                     
 
-                        .the-date-added-of-song{}
+                        .the-date-added-of-song{
+                            display: flex;
+                            min-width: 100px;
+                            max-width: 100%;
+                            width: 100%;
+                            flex: 1;
+                            padding: 5px;
+                        }
 
                             .the-date-added-of-song-TXT{}
                                     
 
-                        .the-duration-of-the-song{}
+                        .the-duration-of-the-song{
+                            padding: 10px;
+                        }
 
 			.the-duration-of-the-song-TXT{}
 
@@ -361,7 +437,7 @@
     .main-bar-palylist-cover-temp-padding{
         display: flex;
         justify-content: center;
-        
+        height: 100%;
     }
 
 }
@@ -384,3 +460,45 @@
     }  
 }
 
+@media screen and (max-width: 1280px) {
+    .the-date-added-of-song{
+        display: none;
+    }
+
+    .date-added-sticky{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .the-title-text-TXT{
+        font-size: 12px;
+    }
+
+    .the-author-text-TXT{
+        font-size: 8px;
+    }
+
+    .image-of-the-playlist-song-PNG{
+        width: 30px;
+        height: 30px;
+    }
+
+    .the-album-text-of-author-TXT{
+        font-size: 12px;
+    }
+
+    .the-duration-of-the-song-TXT{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .the-album-text-of-author{
+        display: none;
+    }
+
+    .album-header-sticky{
+        display: none;
+    }
+}
