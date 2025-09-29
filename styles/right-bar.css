@@ -4,9 +4,340 @@
     max-width: 350px;
     width: 100%;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 5px 5px 5px ;
+    box-sizing:border-box;
 }
 
-    
+    .right-bar-all-elements{
+        width: 100%;
+        border-radius: 10px;
+        background-color: #121212;
+        overflow-x: hidden;
+        box-sizing:border-box;
+    }
+
+    .right-bar-all-elements::-webkit-scrollbar{
+        width: 15px;
+    }
+
+
+    .right-bar-all-elements::-webkit-scrollbar-track{
+        background: none;
+    }
+
+    .right-bar-all-elements::-webkit-scrollbar-thumb{
+        background: rgba(103, 103, 103, 0.433);
+    }
+
+        .right-bar-all-elements-DIV-1{}
+
+            .title-ellipsis-and-expansion{
+                padding: 18px 16px;
+                display: flex;
+                justify-content: space-between;
+                position: sticky;
+                top: 0px;
+                background-color: #121212;
+            }
+
+                .title-right-bar{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    .title-right-bar-TXT{
+                        font-size: 18px;
+                        font-weight: bold;
+                        max-width: 200px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        
+                    }
+
+                    .ellipsis-and-expansion-rightbar{
+                        display: flex;
+                        gap: 15px;
+                    }
+                                
+
+                        .ellipsis-right-bar{
+                            height: 30px;
+                            width: 30px;
+                            transition: background-color 0.1s;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 25px;
+                        }
+
+                        .ellipsis-right-bar:hover{
+                            background-color: rgb(131, 131, 131);
+                            cursor: pointer;
+                        }
+
+                            .ellipsis-right-bar-TXT{
+                                
+                                
+                            }
+                                        
+
+                        .expansion-right-bar{
+                            height: 30px;
+                            width: 30px;
+                            transition: background-color 0.1s;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 25px;
+                        }
+
+                        .expansion-right-bar:hover{
+                            background-color: rgb(131, 131, 131);
+                            cursor: pointer;
+                        }
+
+                            .expansion-right-bar-TXT{
+                                font-size: 14px;
+                            }
+                                        
+
+            .the-playlist-cover-page-rightbar{
+                justify-content: center;
+                display: flex;
+                padding: 0px 18px;
+            }
+
+                .the-playlist-cover-page-rightbar-PNG{
+                    border-radius: 5px;
+                    width: 100%;
+                }
+                        
+
+            .the-title-of-song-right-bar{
+                padding: 10px 18px;
+            }
+
+                .the-title-of-song-right-bar-DIV1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+                    .the-title-only-right-bar{
+                        display: flex;
+                        flex-direction: column;
+                        
+
+                    }
+
+                        .the-title-only-right-bar-DIV1{}
+
+                            .the-title-only-right-bar-DIV1-TXT{
+                                font-size: 25px;
+                                font-weight: bold;
+                            }
+                        
+
+                        .the-title-only-right-bar-DIV2{}
+
+                            .the-title-only-right-bar-DIV2-TXT{
+                                color: rgb(189, 189, 189);
+                            }
+                                        
+
+                    .tickmark-right-bar{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 30px;
+                        background-color: rgb(5, 205, 5);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                        .tickmark-right-bar-TXT{
+                            color: black;
+                            font-size: 12px;
+                        }
+                                                                
+
+        .right-bar-all-elements-DIV-2{
+            padding: 10px 18px
+        }
+
+            .right-bar-box-1{
+                padding: 16px 18px;
+                background-color: #1F1F1F;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+                .rightbarbox1artistnameandimage{}
+                    
+
+                .right-bar-box-1-artist-txt{
+                }
+
+                    .right-bar-box-1-artist-TXT{}
+                                
+
+                .right-bar-box-1-ARTIST-IMAGE{
+                    
+                }
+
+                    .right-bar-box-1-ARTIST-IMAGE-PNG{}
+                                
+
+                .right-bar-box-1-authorname-listeners-followbutton{}
+
+                    .right-bar-box-1-authorname-text{}
+
+                        .right-bar-box-1-authorname-text-TXT{
+                            font-weight: bold;
+                        }
+                                        
+
+                    .right-bar-box-1-listeners-followbutton{
+                        display: flex;
+                        justify-content: space-between;
+                        padding-bottom: 12px;
+                        
+                    }
+
+                        .right-bar-box-1-listeners{
+                            
+                        }
+
+                            .right-bar-box-1-listeners-TXT{
+                                font-size: 16px;
+                                color: rgb(189, 189, 189);
+                            }
+                                                
+
+                        .right-bar-box-1-followbutton{
+                            
+                        }
+
+                            .right-bar-box-1-followbutton-BTN{
+                                width: 80px;
+                                height: 30px;
+                                border-radius: 20px;
+                                background-color: #1F1F1F;
+                                color: white;
+                                border: 1px;
+                                border-style: solid;
+                                border-color: white;
+                                
+                            }
+                                                                            
+
+                .right-bar-box-1-author-description{
+                }
+
+                    .right-bar-box-1-author-description-TXT{
+                        font-size: 14px;
+                        color: rgb(189, 189, 189);
+                    }
+                                        
+
+            .right-bar-box-2{
+                padding: 16px 18px;
+                background-color: #1F1F1F;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+
+                .right-bar-box-2-credits-showall{
+                    display: flex;
+                    justify-content: space-between;
+                    
+                }
+
+                    .right-bar-box-2-credits{}
+
+                        .right-bar-box-2-credits-TXT{
+                            font-weight: bold;
+                        }
+                                        
+
+                    .right-bar-box-2-showall{}
+
+                        .right-bar-box-2-showall-TXT{}
+                                                    
+
+                .right-bar-box-2-artist-name-follow-button{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                    .right-bar-box-2-artist-name-composer{
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                        .right-bar-box-2-artist-name{}
+
+                            .right-bar-box-2-artist-name-TXT{
+                                font-weight: bold;
+                            }
+                                                
+
+                        .right-bar-box-2-composer{}
+
+                            .right-bar-box-2-composer-TXT{
+                                font-size: 14px;
+                                color: rgb(189, 189, 189);
+                            }
+                                                                
+
+                    .right-bar-box-2-follow-button{}
+
+                        .right-bar-box-2-follow-button-BTN{
+                                width: 80px;
+                                height: 30px;
+                                border-radius: 20px;
+                                background-color: #1F1F1F;
+                                color: white;
+                                border: 1px;
+                                border-style: solid;
+                                border-color: white;
+                        }
+                                                            
+
+            .right-bar-box-3{}
+
+                .right-bar-box-3-nextinqueue-openqueue{}
+
+                    .right-bar-box-3-nextinqueue{}
+
+                        .right-bar-box-3-nextinqueue-TXT{}
+                                        
+
+                    .right-bar-box-3-openqueue{}
+
+                        .right-bar-box-3-openqueue-TXT{}
+                                                    
+
+                .right-bar-box-3-next-track{}
+
+                    .right-bar-box-3-next-track-image-songname-artistname{}
+
+                        .right-bar-box-3-next-track-image{}
+
+                            .right-bar-box-3-next-track-image-PNG{}
+                                                
+
+                        .right-bar-box-3-next-track-songname-artistname{}
+
+                            .right-bar-box-3-next-track-songname{}
+
+                                .right-bar-box-3-next-track-songname-TXT{}
+                                                        
+
+                            .right-bar-box-3-next-track-artistname{}
+
+                                .right-bar-box-3-next-track-artistname-TXT{}
