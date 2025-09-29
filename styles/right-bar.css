@@ -9,6 +9,7 @@
 
     .right-bar-all-elements{
         width: 100%;
+        border-radius: 10px;
         background-color: #121212;
         overflow-x: hidden;
         box-sizing:border-box;
