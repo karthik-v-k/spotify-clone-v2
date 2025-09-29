@@ -1,9 +1,8 @@
 .main-bar{
     display: flex;
     flex: 1;
-    background-color: blue;
     border-radius: 10px;
-    
+    box-sizing: border-box;
 }
 
     .main-bar-contents{
@@ -14,10 +13,26 @@
         border-radius: 10px;
         min-width: 335px;
         min-height: 230px;
-        overflow: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow: auto;
+        overflow-x:hidden;
+        border-color: none;
+        border-style:solid;
+    }
+
+    .main-bar-contents::-webkit-scrollbar{
+        width: 20px;
+    }
+
+
+    .main-bar-contents::-webkit-scrollbar-track{
+        background: none;
+    }
+
+    .main-bar-contents::-webkit-scrollbar-thumb{
+        background: rgb(114, 1, 1);
     }
 
         .main-bar-playlist-cover{
@@ -107,7 +122,8 @@
                                 .saves-and-time-of-total-playlist-TXT{}
 
         .play-pause-things{
-
+            width: 100%;
+            max-width: 2000px;
         }
 
             .play-pause-actual-elements{
