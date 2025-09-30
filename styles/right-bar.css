@@ -5,6 +5,7 @@
     width: 100%;
     border-radius: 10px;
     box-sizing:border-box;
+    min-height: 230px;
 }
 
     .right-bar-all-elements{
@@ -28,7 +29,10 @@
         background: rgba(103, 103, 103, 0.433);
     }
 
-        .right-bar-all-elements-DIV-1{}
+        .right-bar-all-elements-DIV-1{
+            display: flex;
+            flex-direction: column;
+        }
 
             .title-ellipsis-and-expansion{
                 padding: 18px 16px;
@@ -127,8 +131,6 @@
                     .the-title-only-right-bar{
                         display: flex;
                         flex-direction: column;
-                        
-
                     }
 
                         .the-title-only-right-bar-DIV1{}
@@ -341,3 +343,89 @@
                             .right-bar-box-3-next-track-artistname{}
 
                                 .right-bar-box-3-next-track-artistname-TXT{}
+
+
+
+
+@media screen and (max-width: 1536px) {
+
+    .right-bar{
+        max-width: 200px;
+    }
+    
+     .right-bar-all-elements-DIV-1{
+        align-items: center;
+     }
+
+    .title-right-bar-TXT{
+        font-size: 14px;
+        font-weight: bold;
+        max-width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+    }
+
+    .ellipsis-and-expansion-rightbar{
+        display: flex;
+        gap: 0px;
+    }
+
+    .right-bar-all-elements::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    .the-title-only-right-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tickmark-right-bar{
+        display: none;
+    }
+
+    .right-bar-box-1-listeners-followbutton{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .right-bar-box-1-listeners-TXT{
+        font-size: 14px;
+    }
+
+    .right-bar-box-2-showall{
+        display: none;
+    }
+
+    .right-bar-box-2{
+        display: flex;
+        align-items: center;
+    }
+
+    .right-bar-box-2-artist-name-follow-button{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .right-bar-box-2-artist-name-composer{
+        display: flex;
+        align-items: center;
+    }
+
+    .right-bar-box-2-composer-TXT{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .right-bar{
+        display: none;
+    }
+    
+}
