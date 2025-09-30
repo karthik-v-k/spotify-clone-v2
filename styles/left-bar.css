@@ -1,6 +1,5 @@
  .left-bar{
     display: flex;
-    background-color: rgb(47, 255, 0);
     max-width: 350px;
     width: 100%;
     border-radius: 10px;

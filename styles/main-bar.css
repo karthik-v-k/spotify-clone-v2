@@ -18,7 +18,7 @@
         align-items: center;
         overflow: auto;
         overflow-x:hidden;
-        border-color: none;
+        border-color: black;
         border-style:solid;
     }
 

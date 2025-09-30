@@ -3,11 +3,12 @@ body{
     font-family: Roboto, Arial, sans-serif;
     color: white;
     z-index: 5;
+    background-color: black;
 }
 
 
 .spotify-clone-v2{
-    display: grid;
+    display: flex;
 }
 
 p{

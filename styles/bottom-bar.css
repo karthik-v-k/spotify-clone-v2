@@ -1,43 +1,86 @@
-.bottom-part{
+.bottom-part{ 
     display: flex;
     position: fixed;
+    color: white;
     bottom: 0px;
-    color: black;
     background-color: green;
     max-height: 80px;
     height: 100%;
     width: 100%;
 }
 
-	.bottom-bar{}
+	.bottom-bar{
+        background-color: blue;
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
 
-		.bottom-bar-actual-elements{}
+		.bottom-bar-actual-elements{
+            display: flex;
+            width: inherit;
+            height: inherit;
+            padding: 15px 20px;
+            box-sizing: border-box;
+        }
 
-			.bottom-bar-img-title-artist-checkmark{}
+			.bottom-bar-img-title-artist-checkmark{
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
 
-				.bottom-bar-img-title-artist-checkmark-box1{}
+				.bottom-bar-img-title-artist-checkmark-box1{
+                    display: flex;
+                    gap: 10px;
+                }
 
 					.bottom-bar-img{}
 
-						.bottom-bar-img-PNG{}
+						.bottom-bar-img-PNG{
+                            border-radius: 5px;
+                            height: 50px;
+                        }
 											
 
-					.bottom-bar-title-artist-checkmark{}
+					.bottom-bar-title-artist-checkmark{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
 
 						.bottom-bar-title-artist{}
 
 							.bottom-bar-title{}
 
-								.bottom-bar-title-TXT{}
+								.bottom-bar-title-TXT{
+                                }
 															
 
 							.bottom-bar-artist{}
 
-								.bottom-bar-artist-TXT{}
+								.bottom-bar-artist-TXT{
+                                    font-size: 12px;
+                                    color: rgb(189, 189, 189);
+                                }
 																					
 
-						.bottom-bar-checkmark{}
-																		
+						.bottom-bar-checkmark{
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 30px;
+                            background-color: rgb(5, 205, 5);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                                .bottom-bar-checkmark-TXT{
+                                    color: black;
+                                    font-size: 11px;
+                                }
+										
 
 			.bottom-bar-play-pause-and-slider{}
 
