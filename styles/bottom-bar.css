@@ -1,0 +1,108 @@
+.bottom-part{
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    color: black;
+    background-color: green;
+    max-height: 80px;
+    height: 100%;
+    width: 100%;
+}
+
+	.bottom-bar{}
+
+		.bottom-bar-actual-elements{}
+
+			.bottom-bar-img-title-artist-checkmark{}
+
+				.bottom-bar-img-title-artist-checkmark-box1{}
+
+					.bottom-bar-img{}
+
+						.bottom-bar-img-PNG{}
+											
+
+					.bottom-bar-title-artist-checkmark{}
+
+						.bottom-bar-title-artist{}
+
+							.bottom-bar-title{}
+
+								.bottom-bar-title-TXT{}
+															
+
+							.bottom-bar-artist{}
+
+								.bottom-bar-artist-TXT{}
+																					
+
+						.bottom-bar-checkmark{}
+																		
+
+			.bottom-bar-play-pause-and-slider{}
+
+				.bottom-bar-play-pause-and-slider-DIV1{}
+
+					.bottombarshuffleelement{}
+
+						.bottombarshuffleelement-TXT{}
+											
+
+					.bottombarplaypreviouselement{}
+
+						.bottombarplaypreviouselement-TXT{}
+											
+
+					.bottombarplaypauseelement{}
+
+						.bottombarplaypauseelement-TXT{}
+											
+
+					.bottombarplaynextelemenet{}
+
+						.bottombarplaynextelemenet-TXT{}
+											
+
+					.bottombarrepeatsongelement{}
+
+						.bottombarrepeatsongelement-TXT{}
+															
+
+				.bottom-bar-play-pause-and-slider-DIV2{}
+							
+
+			.bottom-bar-right-side-allparts{}
+
+				.nowplaying-element{}
+
+					.nowplaying-element-TXT{}
+									
+
+				.showlyrics-element{}
+
+					.showlyrics-element-TXT{}
+									
+
+				.showqueue-element{}
+
+					.showqueue-element-TXT{}
+									
+
+				.connecttodevice-element{}
+
+					.connecttodevice-element-TXT{}
+									
+
+				.volumebar-element{}
+
+					.volumebar-element-TXT{}
+									
+
+				.miniplayer-element{}
+
+					.miniplayer-element-TXT{}
+									
+
+				.fullscreen-element{}
+
+					.fullscreen-element-TXT{}
