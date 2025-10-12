@@ -1,4 +1,4 @@
-const playlists = [
+export const playlists = [
     {
         id : "1",
         image : "songs-images/1.jpg",
@@ -16,6 +16,7 @@ const playlists = [
         albumName : "Ugly is Beautiful : Shorter, thicker & uglier",
         dateAdded : "Oct 23, 2022",
         duration : "2:41"
-    }
+    },
+
 ];
 

@@ -1,3 +1,5 @@
+import { playlists } from "./playlist.js";
+
 let playlistSongs = ''
 
 function createSongHTML() {
